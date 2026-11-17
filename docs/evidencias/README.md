@@ -22,3 +22,14 @@ Los enlaces específicos de run y commit se agregan únicamente después de obse
 
 La evidencia Jira requiere el proyecto real del equipo. `../backlog_jira.json` es un
 backlog preparado; no es una exportación de tickets creados ni un historial de reuniones.
+
+## GitHub Actions aprobado
+
+- [Ejecución 44001210655](https://github.com/edwinbermudez391-dot/DESARROLLO2/actions/runs/44001210655): **success**, observada el 16 de noviembre de 2026.
+- [Commit de código fbd3da4](https://github.com/edwinbermudez391-dot/DESARROLLO2/commit/fbd3da429e8737ed4c227564daf5edea6ca98c52).
+- El workflow ejecutó instalación limpia de Docker, sintaxis PHP, 46 pruebas de acceso,
+  60 combinaciones API, integración con concurrencia, frontend y comprobación HTTP.
+- Los registros están disponibles como artifact `resultados-pruebas` en esa ejecución.
+
+La versión pública contiene catálogos y código. Las cuentas se crean con claves del
+entorno privado; no se publican ciudadanos, contactos, hashes almacenados ni capturas.

@@ -149,5 +149,5 @@ Verificado el 16 de noviembre de 2026 en XAMPP (PHP/MariaDB) y en Docker (PHP 8.
 - Imagen Docker construida y aplicación iniciada. Puerto local 18080, porque Windows
   bloqueó el puerto 8080. Docker usa una base separada de la instalación XAMPP.
 
-El pipeline quedó preparado; aún no se ejecutó en GitHub. Las pruebas locales no son
-una evidencia de que exista un run remoto de GitHub Actions.
+El pipeline remoto fue ejecutado y aprobado. Consultar `evidencias/README.md` y
+`evidencias/publicacion.json` para el enlace real del run, su commit y resultado.
