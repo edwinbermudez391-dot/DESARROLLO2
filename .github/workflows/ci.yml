@@ -1,0 +1,41 @@
+name: Validar aplicación
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar configuración efímera
+        run: python3 scripts/configure_docker.py
+      - name: Preparar aplicación y MySQL
+        run: docker compose up --build -d --wait
+      - name: Crear carpeta de evidencias
+        run: mkdir -p docs/evidencias/ci
+      - name: Revisar sintaxis PHP
+        run: docker compose exec -T app sh -c 'find app core config public scripts tests -name "*.php" -print0 | xargs -0 -n1 php -l' | tee docs/evidencias/ci/sintaxis.txt
+      - name: Verificar roles y sesiones
+        run: docker compose exec -T app php tests/role_access.php | tee docs/evidencias/ci/roles.txt
+      - name: Verificar permisos de APIs
+        run: docker compose exec -T app php tests/api_access.php | tee docs/evidencias/ci/api.txt
+      - name: Verificar integración en base temporal
+        run: docker compose exec -T app php tests/integration.php | tee docs/evidencias/ci/integracion.txt
+      - name: Verificar frontend
+        run: node tests/role_frontend.mjs | tee docs/evidencias/ci/frontend.txt
+      - name: Comprobar página de inicio
+        run: curl --fail --silent http://127.0.0.1:18080/index.php?route=login > /dev/null
+      - name: Guardar diagnóstico
+        if: failure()
+        run: docker compose logs
+      - name: Publicar resultados de pruebas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-pruebas
+          path: docs/evidencias/ci/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Detener entorno
+        if: always()
+        run: docker compose down

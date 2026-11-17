@@ -1,0 +1,101 @@
+{
+  "nota": "Backlog preparado a partir de funciones implementadas. No acredita tickets ni un sprint en Jira. Asignaciones y estados remotos dependen del proyecto real del equipo.",
+  "historias": [
+    {
+      "id_local": "HU-01",
+      "summary": "Acceso con cinco perfiles",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Login, sesión y acceso a vista propia",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-02",
+      "summary": "Radicación territorial",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Datos obligatorios, sede y pertenencia barrio-comuna",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-03",
+      "summary": "Georreferenciar solicitud",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Mapa, GPS y persistencia atómica",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-04",
+      "summary": "Bitácora diaria",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Solicitudes del día y filtros numéricos",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-05",
+      "summary": "Sedes de atención",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Ocho puntos y configuración auditada",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-06",
+      "summary": "Generar hoja de ruta",
+      "issue_type": "Story",
+      "criterio_aceptacion": "20 solicitudes distintas y bloqueo de doble asignación",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-07",
+      "summary": "Entregar hoja",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Sede coincidente, mañana programada y entrega única",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-08",
+      "summary": "Consultar carga propia",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Encuestador solo accede a sus hojas",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-09",
+      "summary": "Informes PDF",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Informe administrativo y hoja descargable",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-10",
+      "summary": "Dashboard",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Indicadores persistidos y vencimientos",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-11",
+      "summary": "Catálogo oficial",
+      "issue_type": "Story",
+      "criterio_aceptacion": "340 barrios, 22 comunas y 15 corregimientos",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    },
+    {
+      "id_local": "HU-12",
+      "summary": "Integración continua",
+      "issue_type": "Story",
+      "criterio_aceptacion": "Docker, permisos, concurrencia y artifact de resultados",
+      "estado_implementacion": "Implementado y verificado localmente",
+      "estado_jira": null
+    }
+  ]
+}

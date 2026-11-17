@@ -1,0 +1,14 @@
+Options -Indexes
+DirectoryIndex public/index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule (^|/)\. - [F,L]
+    RewriteCond %{REQUEST_URI} ^(.*/)$
+    RewriteRule ^$ %1public/ [R=302,L]
+    RewriteRule ^(?:app|config|core|backend|scripts|tests|docs|docker|output|tmp|data)(?:/|$) - [F,L,NC]
+</IfModule>
+
+<FilesMatch "\.(sql|md|yml|yaml|txt|ini|log)$">
+    Require all denied
+</FilesMatch>

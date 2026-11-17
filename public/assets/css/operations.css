@@ -1,0 +1,26 @@
+.op-root {margin-top:2rem;display:grid;gap:1.5rem;color:#1e293b}
+.op-panel {background:white;padding:1.5rem;border:1px solid #e2e8f0;border-radius:1rem;box-shadow:0 2px 8px #0f172a06;min-width:0}
+.op-panel h2 {font-size:1.35rem;font-weight:700;margin:0 0 .75rem}
+.op-panel h3 {font-weight:600;margin:1rem 0 .5rem}
+.op-panel p {margin:.75rem 0;color:#475569;line-height:1.6}
+.op-heading {display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.op-cards {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1.25rem 0}
+.op-cards article {padding:1rem;border:1px solid #e2e8f0;border-radius:.75rem;background:#f8fafc}
+.op-cards strong {font-size:2rem;color:#1d4ed8}
+.op-cards p {font-size:.85rem;margin:0 0 .5rem}
+.op-columns {display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.op-fields {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1rem 0}
+.op-panel label {font-weight:600;font-size:.9rem;display:block}
+.op-panel select,.op-panel input:not([type=checkbox]) {display:block;width:100%;border:1px solid #cbd5e1;border-radius:.5rem;padding:.65rem;background:white;margin-top:.4rem;color:#0f172a}
+.op-panel input[type=checkbox] {width:1.1rem;height:1.1rem;vertical-align:middle;accent-color:#2563eb}
+.op-select-all {padding:.6rem 0}
+.op-panel button,.op-button {display:inline-block;border-radius:.5rem;background:#1d4ed8;color:white;padding:.55rem .85rem;font-size:.85rem;margin:.25rem .25rem .25rem 0;cursor:pointer;text-decoration:none}
+.op-panel button:disabled {opacity:.5;cursor:default}
+.op-link {color:#1d4ed8;text-decoration:underline;white-space:nowrap}
+.op-scroll {overflow:auto;max-height:32rem;margin:.75rem 0}
+.op-panel table {width:100%;border-collapse:collapse;text-align:left;font-size:.85rem}
+.op-panel td,.op-panel th {padding:.8rem;border-bottom:1px solid #e2e8f0;vertical-align:top}
+.op-panel th {background:#f1f5f9;position:sticky;top:0;white-space:nowrap}
+.op-feedback {color:#b91c1c!important}
+.op-panel :focus-visible {outline:3px solid #60a5fa;outline-offset:2px}
+@media(max-width:800px){.op-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.op-columns,.op-fields{grid-template-columns:1fr}.op-panel{padding:1rem}}

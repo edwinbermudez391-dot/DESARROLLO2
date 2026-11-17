@@ -1,0 +1,113 @@
+Instalación Docker limpia: desarrollo2-public-test
+> php tests/role_access.php
+PASS: rol=1, ruta=admin
+PASS: rol=1, ruta=ventanilla
+PASS: rol=1, ruta=encuestador
+PASS: rol=1, ruta=calidad
+PASS: rol=1, ruta=enrutador
+PASS: rol=anonimo, ruta=admin
+PASS: rol=1, ruta=api/sesion
+PASS: rol=1, ruta=api/logout
+PASS: rol=2, ruta=admin
+PASS: rol=2, ruta=ventanilla
+PASS: rol=2, ruta=encuestador
+PASS: rol=2, ruta=calidad
+PASS: rol=2, ruta=enrutador
+PASS: rol=anonimo, ruta=ventanilla
+PASS: rol=2, ruta=api/sesion
+PASS: rol=2, ruta=api/logout
+PASS: rol=3, ruta=admin
+PASS: rol=3, ruta=ventanilla
+PASS: rol=3, ruta=encuestador
+PASS: rol=3, ruta=calidad
+PASS: rol=3, ruta=enrutador
+PASS: rol=anonimo, ruta=encuestador
+PASS: rol=3, ruta=api/sesion
+PASS: rol=3, ruta=api/logout
+PASS: rol=4, ruta=admin
+PASS: rol=4, ruta=ventanilla
+PASS: rol=4, ruta=encuestador
+PASS: rol=4, ruta=calidad
+PASS: rol=4, ruta=enrutador
+PASS: rol=anonimo, ruta=calidad
+PASS: rol=4, ruta=api/sesion
+PASS: rol=4, ruta=api/logout
+PASS: rol=5, ruta=admin
+PASS: rol=5, ruta=ventanilla
+PASS: rol=5, ruta=encuestador
+PASS: rol=5, ruta=calidad
+PASS: rol=5, ruta=enrutador
+PASS: rol=anonimo, ruta=enrutador
+PASS: rol=5, ruta=api/sesion
+PASS: rol=5, ruta=api/logout
+PASS: rol=anonimo, ruta=api/sesion
+PASS: rol=99, ruta=admin
+PASS: rol=99, ruta=ventanilla
+PASS: rol=99, ruta=encuestador
+PASS: rol=99, ruta=calidad
+PASS: rol=99, ruta=enrutador
+46 pruebas correctas.
+> php tests/api_access.php
+PASS 60 combinaciones de permisos API, JSON y descarga PDF.
+> php tests/integration.php
+Migración entrega 2 completada. Los registros anteriores conservan su sede sin especificar.
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+Migración entrega 2 completada. Los registros anteriores conservan su sede sin especificar.
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+PASS rechaza sede inexistente
+PASS rechaza coordenadas incompletas
+PASS 22 comunas activas
+PASS 15 corregimientos activos
+PASS 340 barrios y sectores oficiales
+PASS rechaza barrio de otra comuna
+PASS rechaza barrio urbano sin catalogo
+PASS normaliza el nombre desde el catalogo
+PASS acepta sector rural y deriva corregimiento
+PASS rechaza coordenadas de sede fuera de rango
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+PASS migracion conserva sede configurada
+PASS configuracion de sede auditada
+PASS registro atómico 1
+PASS registro atómico 2
+PASS registro atómico 3
+PASS registro atómico 4
+PASS registro atómico 5
+PASS registro atómico 6
+PASS registro atómico 7
+PASS registro atómico 8
+PASS registro atómico 9
+PASS registro atómico 10
+PASS registro atómico 11
+PASS registro atómico 12
+PASS registro atómico 13
+PASS registro atómico 14
+PASS registro atómico 15
+PASS registro atómico 16
+PASS registro atómico 17
+PASS registro atómico 18
+PASS registro atómico 19
+PASS registro atómico 20
+PASS consecutivos únicos
+PASS registro concurrente: 
+PASS registro concurrente: 
+PASS registro concurrente: 
+PASS consecutivos concurrentes diferentes
+PASS ocho sedes disponibles
+PASS solicitudes elegibles para ruta
+PASS rechaza carga menor a 20
+PASS rechaza repetidos
+PASS rechaza programación para hoy
+PASS rechaza usuario que no es encuestador
+PASS ruta con 20 asignaciones
+PASS estado asignado consistente
+PASS encuestador no puede consultar ruta ajena
+PASS impide doble asignación
+PASS rechaza entrega desde otra sede
+PASS rechaza entrega anticipada
+PASS rechaza entrega fuera de la manana
+PASS entrega registrada en la manana
+PASS impide entrega duplicada
+PASS impide cambiar ubicación de solicitud asignada
+PASS dashboard cuenta datos reales
+PASS PDF paginado
+Integración completada; datos de prueba eliminados al finalizar.

@@ -1,0 +1,1 @@
+PASS: cinco plantillas, rutas, 25 combinaciones de roles, roles inválidos, sesión expirada, acceso denegado, errores de servidor/red y logout.

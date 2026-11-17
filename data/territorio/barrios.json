@@ -1,0 +1,2726 @@
+{
+  "version": "IDESC-mapas-2026",
+  "descripcion": "Catálogo transcrito de etiquetas de los mapas GeoPDF IDESC. Los puntos interpolados son referencias de etiquetas, no domicilios ni límites de barrio.",
+  "barrios": [
+    {
+      "codigo": "0101",
+      "nombre": "Terrón Colorado",
+      "comuna": "01",
+      "latitud_referencia": 3.4529423,
+      "longitud_referencia": -76.5609925,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_01.pdf"
+    },
+    {
+      "codigo": "0102",
+      "nombre": "Vista Hermosa",
+      "comuna": "01",
+      "latitud_referencia": 3.45472,
+      "longitud_referencia": -76.5765866,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_01.pdf"
+    },
+    {
+      "codigo": "0103",
+      "nombre": "Patio Bonito",
+      "comuna": "01",
+      "latitud_referencia": 3.4617713,
+      "longitud_referencia": -76.5867953,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_01.pdf"
+    },
+    {
+      "codigo": "0104",
+      "nombre": "Aguacatal",
+      "comuna": "01",
+      "latitud_referencia": 3.4580091,
+      "longitud_referencia": -76.5580026,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_01.pdf"
+    },
+    {
+      "codigo": "0201",
+      "nombre": "Santa Rita",
+      "comuna": "02",
+      "latitud_referencia": 3.4518081,
+      "longitud_referencia": -76.5530017,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0202",
+      "nombre": "Santa Teresita",
+      "comuna": "02",
+      "latitud_referencia": 3.4525186,
+      "longitud_referencia": -76.5477963,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0203",
+      "nombre": "Arboledas",
+      "comuna": "02",
+      "latitud_referencia": 3.4488128,
+      "longitud_referencia": -76.549881,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0204",
+      "nombre": "Normandía",
+      "comuna": "02",
+      "latitud_referencia": 3.453756,
+      "longitud_referencia": -76.5451144,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0205",
+      "nombre": "Juanambú",
+      "comuna": "02",
+      "latitud_referencia": 3.4560469,
+      "longitud_referencia": -76.5378488,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0207",
+      "nombre": "Granada",
+      "comuna": "02",
+      "latitud_referencia": 3.4586625,
+      "longitud_referencia": -76.5336856,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0208",
+      "nombre": "Versalles",
+      "comuna": "02",
+      "latitud_referencia": 3.4607574,
+      "longitud_referencia": -76.5287239,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0209",
+      "nombre": "San Vicente",
+      "comuna": "02",
+      "latitud_referencia": 3.4663989,
+      "longitud_referencia": -76.5260689,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0210",
+      "nombre": "Santa Mónica",
+      "comuna": "02",
+      "latitud_referencia": 3.468065,
+      "longitud_referencia": -76.5313414,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0211",
+      "nombre": "Prados del Norte",
+      "comuna": "02",
+      "latitud_referencia": 3.4705764,
+      "longitud_referencia": -76.5208265,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0212",
+      "nombre": "La Flora",
+      "comuna": "02",
+      "latitud_referencia": 3.4820616,
+      "longitud_referencia": -76.5239069,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0213",
+      "nombre": "La Campiña",
+      "comuna": "02",
+      "latitud_referencia": 3.4813511,
+      "longitud_referencia": -76.5284116,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0214",
+      "nombre": "La Paz",
+      "comuna": "02",
+      "latitud_referencia": 3.4826987,
+      "longitud_referencia": -76.5268937,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0215",
+      "nombre": "El Bosque",
+      "comuna": "02",
+      "latitud_referencia": 3.4857308,
+      "longitud_referencia": -76.5298865,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0216",
+      "nombre": "Menga",
+      "comuna": "02",
+      "latitud_referencia": 3.4926341,
+      "longitud_referencia": -76.526381,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0217",
+      "nombre": "Ciudad Los Álamos",
+      "comuna": "02",
+      "latitud_referencia": 3.4855592,
+      "longitud_referencia": -76.5088565,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0218",
+      "nombre": "Chipichape",
+      "comuna": "02",
+      "latitud_referencia": 3.476855,
+      "longitud_referencia": -76.5282108,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0219",
+      "nombre": "Brisas de los Álamos",
+      "comuna": "02",
+      "latitud_referencia": 3.492824,
+      "longitud_referencia": -76.5040096,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0220",
+      "nombre": "Urbanización La Merced",
+      "comuna": "02",
+      "latitud_referencia": 3.4799667,
+      "longitud_referencia": -76.5132032,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0221",
+      "nombre": "Vipasa",
+      "comuna": "02",
+      "latitud_referencia": 3.4787968,
+      "longitud_referencia": -76.5181347,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0222",
+      "nombre": "Urbanización La Flora",
+      "comuna": "02",
+      "latitud_referencia": 3.4877522,
+      "longitud_referencia": -76.5158663,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0223",
+      "nombre": "Sector Altos de Menga",
+      "comuna": "02",
+      "latitud_referencia": 3.489504,
+      "longitud_referencia": -76.5340374,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0224",
+      "nombre": "Alto Normandía",
+      "comuna": "02",
+      "latitud_referencia": 3.4538295,
+      "longitud_referencia": -76.5420607,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0225",
+      "nombre": "Senderos de La Flora",
+      "comuna": "02",
+      "latitud_referencia": 3.4909313,
+      "longitud_referencia": -76.521596,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf"
+    },
+    {
+      "codigo": "0301",
+      "nombre": "El Nacional",
+      "comuna": "03",
+      "latitud_referencia": 3.4435935,
+      "longitud_referencia": -76.5453138,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0302",
+      "nombre": "El Peñón",
+      "comuna": "03",
+      "latitud_referencia": 3.4499732,
+      "longitud_referencia": -76.5415358,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0303",
+      "nombre": "San Antonio",
+      "comuna": "03",
+      "latitud_referencia": 3.4466532,
+      "longitud_referencia": -76.5422544,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0304",
+      "nombre": "San Cayetano",
+      "comuna": "03",
+      "latitud_referencia": 3.4442826,
+      "longitud_referencia": -76.5400443,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0305",
+      "nombre": "Los Libertadores",
+      "comuna": "03",
+      "latitud_referencia": 3.4413271,
+      "longitud_referencia": -76.539172,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0306",
+      "nombre": "San Juan Bosco",
+      "comuna": "03",
+      "latitud_referencia": 3.4433914,
+      "longitud_referencia": -76.5339439,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0307",
+      "nombre": "Santa Rosa",
+      "comuna": "03",
+      "latitud_referencia": 3.4467726,
+      "longitud_referencia": -76.5338728,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0308",
+      "nombre": "La Merced",
+      "comuna": "03",
+      "latitud_referencia": 3.4499824,
+      "longitud_referencia": -76.5359428,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0309",
+      "nombre": "San Pascual",
+      "comuna": "03",
+      "latitud_referencia": 3.4440989,
+      "longitud_referencia": -76.5282004,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0310",
+      "nombre": "Ciudad Paraíso",
+      "comuna": "03",
+      "latitud_referencia": 3.4474954,
+      "longitud_referencia": -76.5295784,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0311",
+      "nombre": "San Pedro",
+      "comuna": "03",
+      "latitud_referencia": 3.4519548,
+      "longitud_referencia": -76.5317628,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0312",
+      "nombre": "San Nicolás",
+      "comuna": "03",
+      "latitud_referencia": 3.4549715,
+      "longitud_referencia": -76.5242054,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0313",
+      "nombre": "El Manantial",
+      "comuna": "03",
+      "latitud_referencia": 3.4570511,
+      "longitud_referencia": -76.5285125,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0314",
+      "nombre": "El Piloto",
+      "comuna": "03",
+      "latitud_referencia": 3.460512,
+      "longitud_referencia": -76.5239283,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0315",
+      "nombre": "Navarro - La Chanca",
+      "comuna": "03",
+      "latitud_referencia": 3.4423317,
+      "longitud_referencia": -76.54535,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf"
+    },
+    {
+      "codigo": "0401",
+      "nombre": "Jorge Isaacs",
+      "comuna": "04",
+      "latitud_referencia": 3.4572072,
+      "longitud_referencia": -76.5179342,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0402",
+      "nombre": "Santander",
+      "comuna": "04",
+      "latitud_referencia": 3.46274,
+      "longitud_referencia": -76.5152982,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0403",
+      "nombre": "Porvenir",
+      "comuna": "04",
+      "latitud_referencia": 3.4588208,
+      "longitud_referencia": -76.5138841,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0404",
+      "nombre": "Las Delicias",
+      "comuna": "04",
+      "latitud_referencia": 3.4618551,
+      "longitud_referencia": -76.5092123,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0405",
+      "nombre": "Manzanares",
+      "comuna": "04",
+      "latitud_referencia": 3.4662734,
+      "longitud_referencia": -76.5099163,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0406",
+      "nombre": "Salomia",
+      "comuna": "04",
+      "latitud_referencia": 3.4656396,
+      "longitud_referencia": -76.5059271,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0407",
+      "nombre": "Fátima",
+      "comuna": "04",
+      "latitud_referencia": 3.4634779,
+      "longitud_referencia": -76.5184889,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0408",
+      "nombre": "Sultana - Berlín - San Francisco",
+      "comuna": "04",
+      "latitud_referencia": 3.4653916,
+      "longitud_referencia": -76.5174482,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0410",
+      "nombre": "Popular",
+      "comuna": "04",
+      "latitud_referencia": 3.4695343,
+      "longitud_referencia": -76.5119154,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0411",
+      "nombre": "Ignacio Rengifo",
+      "comuna": "04",
+      "latitud_referencia": 3.4712428,
+      "longitud_referencia": -76.5130872,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0412",
+      "nombre": "Guillermo Valencia",
+      "comuna": "04",
+      "latitud_referencia": 3.4728135,
+      "longitud_referencia": -76.510445,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0413",
+      "nombre": "La Isla",
+      "comuna": "04",
+      "latitud_referencia": 3.4734443,
+      "longitud_referencia": -76.5134331,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0414",
+      "nombre": "Marco Fidel Suárez",
+      "comuna": "04",
+      "latitud_referencia": 3.4739985,
+      "longitud_referencia": -76.509191,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0415",
+      "nombre": "Evaristo García",
+      "comuna": "04",
+      "latitud_referencia": 3.4757744,
+      "longitud_referencia": -76.5068703,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0416",
+      "nombre": "La Esmeralda",
+      "comuna": "04",
+      "latitud_referencia": 3.4592311,
+      "longitud_referencia": -76.5080268,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0417",
+      "nombre": "Bolivariano",
+      "comuna": "04",
+      "latitud_referencia": 3.4675655,
+      "longitud_referencia": -76.514521,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0418",
+      "nombre": "Olaya Herrera",
+      "comuna": "04",
+      "latitud_referencia": 3.4776237,
+      "longitud_referencia": -76.5090416,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0419",
+      "nombre": "Unidad Residencial Bueno Madrid",
+      "comuna": "04",
+      "latitud_referencia": 3.4678319,
+      "longitud_referencia": -76.5164425,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0420",
+      "nombre": "Flora Industrial",
+      "comuna": "04",
+      "latitud_referencia": 3.4804835,
+      "longitud_referencia": -76.5040163,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0421",
+      "nombre": "Calima",
+      "comuna": "04",
+      "latitud_referencia": 3.4849263,
+      "longitud_referencia": -76.500085,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0422",
+      "nombre": "La Alianza",
+      "comuna": "04",
+      "latitud_referencia": 3.4726941,
+      "longitud_referencia": -76.5054883,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0423",
+      "nombre": "Sector Industria de Licores",
+      "comuna": "04",
+      "latitud_referencia": 3.4623205,
+      "longitud_referencia": -76.5201681,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf"
+    },
+    {
+      "codigo": "0501",
+      "nombre": "El Sena",
+      "comuna": "05",
+      "latitud_referencia": 3.4655049,
+      "longitud_referencia": -76.5011946,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0502",
+      "nombre": "Los Andes",
+      "comuna": "05",
+      "latitud_referencia": 3.471036,
+      "longitud_referencia": -76.4986903,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0503",
+      "nombre": "Los Guayacanes",
+      "comuna": "05",
+      "latitud_referencia": 3.4724161,
+      "longitud_referencia": -76.4897335,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0504",
+      "nombre": "Chiminangos Segunda Etapa",
+      "comuna": "05",
+      "latitud_referencia": 3.4780838,
+      "longitud_referencia": -76.4935458,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0505",
+      "nombre": "Chiminangos Primera Etapa",
+      "comuna": "05",
+      "latitud_referencia": 3.4769234,
+      "longitud_referencia": -76.4908389,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0506",
+      "nombre": "Metropolitano del Norte",
+      "comuna": "05",
+      "latitud_referencia": 3.4818917,
+      "longitud_referencia": -76.492131,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0507",
+      "nombre": "Los Parques - Barranquilla",
+      "comuna": "05",
+      "latitud_referencia": 3.4770199,
+      "longitud_referencia": -76.4969822,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0508",
+      "nombre": "Villa del Sol",
+      "comuna": "05",
+      "latitud_referencia": 3.4813692,
+      "longitud_referencia": -76.4961114,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0509",
+      "nombre": "Paseo de Los Almendros",
+      "comuna": "05",
+      "latitud_referencia": 3.4725206,
+      "longitud_referencia": -76.4940966,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0510",
+      "nombre": "Los Andes B - La Riviera",
+      "comuna": "05",
+      "latitud_referencia": 3.4688171,
+      "longitud_referencia": -76.495354,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0511",
+      "nombre": "Torres de Comfandi",
+      "comuna": "05",
+      "latitud_referencia": 3.4753987,
+      "longitud_referencia": -76.5010545,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0512",
+      "nombre": "Villa del Prado - El Guabito",
+      "comuna": "05",
+      "latitud_referencia": 3.4659793,
+      "longitud_referencia": -76.491463,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf"
+    },
+    {
+      "codigo": "0601",
+      "nombre": "San Luis",
+      "comuna": "06",
+      "latitud_referencia": 3.4805386,
+      "longitud_referencia": -76.4865423,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0602",
+      "nombre": "Jorge Eliécer Gaitán",
+      "comuna": "06",
+      "latitud_referencia": 3.4706148,
+      "longitud_referencia": -76.4815689,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0603",
+      "nombre": "Paso del Comercio",
+      "comuna": "06",
+      "latitud_referencia": 3.4934591,
+      "longitud_referencia": -76.4880605,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0604",
+      "nombre": "Los Alcázares Primera Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4868483,
+      "longitud_referencia": -76.4925329,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0605",
+      "nombre": "Petecuy Primera Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4740752,
+      "longitud_referencia": -76.4793498,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0606",
+      "nombre": "Petecuy Segunda Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4805418,
+      "longitud_referencia": -76.4818984,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0607",
+      "nombre": "La Rivera Primera Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4740306,
+      "longitud_referencia": -76.486348,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0608",
+      "nombre": "Los Guaduales",
+      "comuna": "06",
+      "latitud_referencia": 3.4908991,
+      "longitud_referencia": -76.4994798,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0609",
+      "nombre": "Petecuy Tercera Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4770425,
+      "longitud_referencia": -76.4807879,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0610",
+      "nombre": "Ciudadela Floralia",
+      "comuna": "06",
+      "latitud_referencia": 3.4972838,
+      "longitud_referencia": -76.4936015,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0611",
+      "nombre": "Los Alcázares Segunda Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4863389,
+      "longitud_referencia": -76.4906358,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0612",
+      "nombre": "Los Alcázares Tercera Etapa",
+      "comuna": "06",
+      "latitud_referencia": 3.4888389,
+      "longitud_referencia": -76.4923006,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0613",
+      "nombre": "Fonaviemcali",
+      "comuna": "06",
+      "latitud_referencia": 3.4842447,
+      "longitud_referencia": -76.4892052,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0614",
+      "nombre": "San Luis II",
+      "comuna": "06",
+      "latitud_referencia": 3.4884977,
+      "longitud_referencia": -76.4880566,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0615",
+      "nombre": "Urbanización Calimio",
+      "comuna": "06",
+      "latitud_referencia": 3.4873297,
+      "longitud_referencia": -76.4841461,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0616",
+      "nombre": "Puente del Comercio",
+      "comuna": "06",
+      "latitud_referencia": 3.4883876,
+      "longitud_referencia": -76.496693,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0617",
+      "nombre": "Portada de Comfandi - Las Encinas",
+      "comuna": "06",
+      "latitud_referencia": 3.4862206,
+      "longitud_referencia": -76.4937082,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf"
+    },
+    {
+      "codigo": "0701",
+      "nombre": "Alfonso Lopez Pumarejo 1a Etapa",
+      "comuna": "07",
+      "latitud_referencia": 3.4647194,
+      "longitud_referencia": -76.4793997,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0702",
+      "nombre": "Alfonso Lopez Pumarejo 2a Etapa",
+      "comuna": "07",
+      "latitud_referencia": 3.4592647,
+      "longitud_referencia": -76.4803369,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0703",
+      "nombre": "Alfonso Lopez Pumarejo 3a Etapa",
+      "comuna": "07",
+      "latitud_referencia": 3.4537411,
+      "longitud_referencia": -76.4807635,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0705",
+      "nombre": "Puerto Mallarino",
+      "comuna": "07",
+      "latitud_referencia": 3.4492891,
+      "longitud_referencia": -76.4796968,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0706",
+      "nombre": "Urbanización El Ángel del Hogar",
+      "comuna": "07",
+      "latitud_referencia": 3.447272,
+      "longitud_referencia": -76.4826893,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0707",
+      "nombre": "Siete de Agosto",
+      "comuna": "07",
+      "latitud_referencia": 3.4474101,
+      "longitud_referencia": -76.4866513,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0708",
+      "nombre": "Los Pinos",
+      "comuna": "07",
+      "latitud_referencia": 3.4577381,
+      "longitud_referencia": -76.4853656,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0709",
+      "nombre": "San Marino",
+      "comuna": "07",
+      "latitud_referencia": 3.4603837,
+      "longitud_referencia": -76.4887104,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0710",
+      "nombre": "Las Ceibas",
+      "comuna": "07",
+      "latitud_referencia": 3.4557325,
+      "longitud_referencia": -76.4878799,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0711",
+      "nombre": "Sector Base Aérea",
+      "comuna": "07",
+      "latitud_referencia": 3.4571769,
+      "longitud_referencia": -76.4971715,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0712",
+      "nombre": "Sector Parque de la Caña",
+      "comuna": "07",
+      "latitud_referencia": 3.4556546,
+      "longitud_referencia": -76.5081585,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0713",
+      "nombre": "Fepicol",
+      "comuna": "07",
+      "latitud_referencia": 3.4622399,
+      "longitud_referencia": -76.4856322,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf"
+    },
+    {
+      "codigo": "0801",
+      "nombre": "Primitivo Crespo",
+      "comuna": "08",
+      "latitud_referencia": 3.4379652,
+      "longitud_referencia": -76.5170428,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0802",
+      "nombre": "Simón Bolívar",
+      "comuna": "08",
+      "latitud_referencia": 3.4419345,
+      "longitud_referencia": -76.5176719,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0803",
+      "nombre": "Saavedra Galindo",
+      "comuna": "08",
+      "latitud_referencia": 3.4417171,
+      "longitud_referencia": -76.514842,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0804",
+      "nombre": "Rafael Uribe Uribe",
+      "comuna": "08",
+      "latitud_referencia": 3.4389536,
+      "longitud_referencia": -76.5123395,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0805",
+      "nombre": "Santa Mónica Popular",
+      "comuna": "08",
+      "latitud_referencia": 3.437148,
+      "longitud_referencia": -76.5106118,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0806",
+      "nombre": "La Floresta",
+      "comuna": "08",
+      "latitud_referencia": 3.4440185,
+      "longitud_referencia": -76.5125846,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0807",
+      "nombre": "Benjamín Herrera",
+      "comuna": "08",
+      "latitud_referencia": 3.4471751,
+      "longitud_referencia": -76.5164309,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0808",
+      "nombre": "Municipal",
+      "comuna": "08",
+      "latitud_referencia": 3.447898,
+      "longitud_referencia": -76.5121527,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0809",
+      "nombre": "Industrial",
+      "comuna": "08",
+      "latitud_referencia": 3.4526841,
+      "longitud_referencia": -76.5143192,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0810",
+      "nombre": "El Troncal",
+      "comuna": "08",
+      "latitud_referencia": 3.4508601,
+      "longitud_referencia": -76.5064878,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0811",
+      "nombre": "Las Américas",
+      "comuna": "08",
+      "latitud_referencia": 3.4475904,
+      "longitud_referencia": -76.5061244,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0812",
+      "nombre": "Atanasio Girardot",
+      "comuna": "08",
+      "latitud_referencia": 3.4444245,
+      "longitud_referencia": -76.5082944,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0813",
+      "nombre": "Santa Fé",
+      "comuna": "08",
+      "latitud_referencia": 3.4405447,
+      "longitud_referencia": -76.5056496,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0814",
+      "nombre": "Chapinero",
+      "comuna": "08",
+      "latitud_referencia": 3.444465,
+      "longitud_referencia": -76.501985,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0815",
+      "nombre": "Villa Colombia",
+      "comuna": "08",
+      "latitud_referencia": 3.4492053,
+      "longitud_referencia": -76.4997567,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0816",
+      "nombre": "El Trébol",
+      "comuna": "08",
+      "latitud_referencia": 3.4429691,
+      "longitud_referencia": -76.4961812,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0817",
+      "nombre": "La Base",
+      "comuna": "08",
+      "latitud_referencia": 3.4490495,
+      "longitud_referencia": -76.4955265,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0818",
+      "nombre": "Urbanización La Nueva Base",
+      "comuna": "08",
+      "latitud_referencia": 3.448384,
+      "longitud_referencia": -76.4915431,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf"
+    },
+    {
+      "codigo": "0901",
+      "nombre": "Alameda",
+      "comuna": "09",
+      "latitud_referencia": 3.4376536,
+      "longitud_referencia": -76.5356061,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0902",
+      "nombre": "Bretaña",
+      "comuna": "09",
+      "latitud_referencia": 3.4375273,
+      "longitud_referencia": -76.5322786,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0903",
+      "nombre": "Junín",
+      "comuna": "09",
+      "latitud_referencia": 3.4342199,
+      "longitud_referencia": -76.5276689,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0904",
+      "nombre": "Guayaquil",
+      "comuna": "09",
+      "latitud_referencia": 3.4391718,
+      "longitud_referencia": -76.5277626,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0905",
+      "nombre": "Aranjuez",
+      "comuna": "09",
+      "latitud_referencia": 3.4363146,
+      "longitud_referencia": -76.5229679,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0906",
+      "nombre": "Manuel María Buenaventura",
+      "comuna": "09",
+      "latitud_referencia": 3.438655,
+      "longitud_referencia": -76.5232159,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0907",
+      "nombre": "Santa Mónica Belalcázar",
+      "comuna": "09",
+      "latitud_referencia": 3.4370771,
+      "longitud_referencia": -76.5203614,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0908",
+      "nombre": "Belalcázar",
+      "comuna": "09",
+      "latitud_referencia": 3.4416524,
+      "longitud_referencia": -76.5213796,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0909",
+      "nombre": "Sucre",
+      "comuna": "09",
+      "latitud_referencia": 3.4470614,
+      "longitud_referencia": -76.5247551,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "0910",
+      "nombre": "Barrio Obrero",
+      "comuna": "09",
+      "latitud_referencia": 3.4487381,
+      "longitud_referencia": -76.5203031,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf"
+    },
+    {
+      "codigo": "1001",
+      "nombre": "El Dorado",
+      "comuna": "10",
+      "latitud_referencia": 3.4205535,
+      "longitud_referencia": -76.5290527,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1002",
+      "nombre": "El Guabal",
+      "comuna": "10",
+      "latitud_referencia": 3.4161077,
+      "longitud_referencia": -76.5273432,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1003",
+      "nombre": "La Libertad",
+      "comuna": "10",
+      "latitud_referencia": 3.4236888,
+      "longitud_referencia": -76.5238735,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1004",
+      "nombre": "Santa Elena",
+      "comuna": "10",
+      "latitud_referencia": 3.4283998,
+      "longitud_referencia": -76.5238388,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1005",
+      "nombre": "Las Acacias",
+      "comuna": "10",
+      "latitud_referencia": 3.43388,
+      "longitud_referencia": -76.5209932,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1006",
+      "nombre": "Santo Domingo",
+      "comuna": "10",
+      "latitud_referencia": 3.412423,
+      "longitud_referencia": -76.5323463,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1007",
+      "nombre": "Jorge Zawadsky",
+      "comuna": "10",
+      "latitud_referencia": 3.410306,
+      "longitud_referencia": -76.5322236,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1008",
+      "nombre": "Olímpico",
+      "comuna": "10",
+      "latitud_referencia": 3.4219309,
+      "longitud_referencia": -76.532653,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1009",
+      "nombre": "Cristóbal Colón",
+      "comuna": "10",
+      "latitud_referencia": 3.4223382,
+      "longitud_referencia": -76.5251603,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1010",
+      "nombre": "La Selva",
+      "comuna": "10",
+      "latitud_referencia": 3.4103864,
+      "longitud_referencia": -76.5293194,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1011",
+      "nombre": "Departamental",
+      "comuna": "10",
+      "latitud_referencia": 3.4150921,
+      "longitud_referencia": -76.5359907,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1012",
+      "nombre": "Pasoancho",
+      "comuna": "10",
+      "latitud_referencia": 3.4182515,
+      "longitud_referencia": -76.5325917,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1013",
+      "nombre": "Panamericano",
+      "comuna": "10",
+      "latitud_referencia": 3.4130179,
+      "longitud_referencia": -76.5343038,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1014",
+      "nombre": "Colseguros Andes",
+      "comuna": "10",
+      "latitud_referencia": 3.4268268,
+      "longitud_referencia": -76.5291327,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1015",
+      "nombre": "San Cristóbal",
+      "comuna": "10",
+      "latitud_referencia": 3.4318058,
+      "longitud_referencia": -76.5224814,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1016",
+      "nombre": "Las Granjas",
+      "comuna": "10",
+      "latitud_referencia": 3.4095476,
+      "longitud_referencia": -76.5270605,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1017",
+      "nombre": "San Judas Tadeo I",
+      "comuna": "10",
+      "latitud_referencia": 3.4086231,
+      "longitud_referencia": -76.5244416,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1018",
+      "nombre": "San Judas Tadeo II",
+      "comuna": "10",
+      "latitud_referencia": 3.4139291,
+      "longitud_referencia": -76.5232494,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf"
+    },
+    {
+      "codigo": "1101",
+      "nombre": "San Carlos",
+      "comuna": "11",
+      "latitud_referencia": 3.4222014,
+      "longitud_referencia": -76.513518,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1102",
+      "nombre": "Maracaibo",
+      "comuna": "11",
+      "latitud_referencia": 3.4184649,
+      "longitud_referencia": -76.5172309,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1103",
+      "nombre": "La Independencia",
+      "comuna": "11",
+      "latitud_referencia": 3.4164527,
+      "longitud_referencia": -76.5187276,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1104",
+      "nombre": "La Esperanza",
+      "comuna": "11",
+      "latitud_referencia": 3.4200759,
+      "longitud_referencia": -76.5201172,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1105",
+      "nombre": "Urbanización Boyaca",
+      "comuna": "11",
+      "latitud_referencia": 3.423157,
+      "longitud_referencia": -76.520117,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1106",
+      "nombre": "El Jardín",
+      "comuna": "11",
+      "latitud_referencia": 3.4246884,
+      "longitud_referencia": -76.5176875,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1107",
+      "nombre": "La Fortaleza",
+      "comuna": "11",
+      "latitud_referencia": 3.4264954,
+      "longitud_referencia": -76.5130023,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1108",
+      "nombre": "El Recuerdo",
+      "comuna": "11",
+      "latitud_referencia": 3.4301094,
+      "longitud_referencia": -76.5155837,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1109",
+      "nombre": "Aguablanca",
+      "comuna": "11",
+      "latitud_referencia": 3.4316101,
+      "longitud_referencia": -76.5182508,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1110",
+      "nombre": "El Prado",
+      "comuna": "11",
+      "latitud_referencia": 3.4348719,
+      "longitud_referencia": -76.5167659,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1111",
+      "nombre": "20 de Julio",
+      "comuna": "11",
+      "latitud_referencia": 3.4349209,
+      "longitud_referencia": -76.5131795,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1112",
+      "nombre": "Prados de Oriente",
+      "comuna": "11",
+      "latitud_referencia": 3.4312977,
+      "longitud_referencia": -76.513308,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1113",
+      "nombre": "Los Sauces - Ciudad Modelo",
+      "comuna": "11",
+      "latitud_referencia": 3.4176502,
+      "longitud_referencia": -76.5129929,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1114",
+      "nombre": "Villa del Sur",
+      "comuna": "11",
+      "latitud_referencia": 3.412318,
+      "longitud_referencia": -76.5187874,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1115",
+      "nombre": "José Holguín Garcés",
+      "comuna": "11",
+      "latitud_referencia": 3.407825,
+      "longitud_referencia": -76.5214118,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1116",
+      "nombre": "León XIII",
+      "comuna": "11",
+      "latitud_referencia": 3.426134,
+      "longitud_referencia": -76.5093919,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1117",
+      "nombre": "José María Córdoba",
+      "comuna": "11",
+      "latitud_referencia": 3.4221371,
+      "longitud_referencia": -76.5107885,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1118",
+      "nombre": "San Pedro Claver",
+      "comuna": "11",
+      "latitud_referencia": 3.4245046,
+      "longitud_referencia": -76.5049709,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1119",
+      "nombre": "Los Conquistadores",
+      "comuna": "11",
+      "latitud_referencia": 3.4258675,
+      "longitud_referencia": -76.5068528,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1120",
+      "nombre": "La Gran Colombia",
+      "comuna": "11",
+      "latitud_referencia": 3.421742,
+      "longitud_referencia": -76.5070243,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1121",
+      "nombre": "San Benito",
+      "comuna": "11",
+      "latitud_referencia": 3.4288108,
+      "longitud_referencia": -76.5097465,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1122",
+      "nombre": "Primavera",
+      "comuna": "11",
+      "latitud_referencia": 3.4222964,
+      "longitud_referencia": -76.5087997,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf"
+    },
+    {
+      "codigo": "1201",
+      "nombre": "Villanueva",
+      "comuna": "12",
+      "latitud_referencia": 3.4304088,
+      "longitud_referencia": -76.5088002,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1202",
+      "nombre": "Asturias",
+      "comuna": "12",
+      "latitud_referencia": 3.4380828,
+      "longitud_referencia": -76.5029221,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1203",
+      "nombre": "Eduardo Santos",
+      "comuna": "12",
+      "latitud_referencia": 3.429194,
+      "longitud_referencia": -76.5053635,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1204",
+      "nombre": "Alfonso Barberena A.",
+      "comuna": "12",
+      "latitud_referencia": 3.4341016,
+      "longitud_referencia": -76.5090548,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1205",
+      "nombre": "El Paraíso",
+      "comuna": "12",
+      "latitud_referencia": 3.4318425,
+      "longitud_referencia": -76.5064909,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1206",
+      "nombre": "Fenalco Kennedy",
+      "comuna": "12",
+      "latitud_referencia": 3.4380533,
+      "longitud_referencia": -76.4998374,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1207",
+      "nombre": "Nueva Floresta",
+      "comuna": "12",
+      "latitud_referencia": 3.4374722,
+      "longitud_referencia": -76.4977125,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1208",
+      "nombre": "Julio Rincón",
+      "comuna": "12",
+      "latitud_referencia": 3.4269918,
+      "longitud_referencia": -76.5012918,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1209",
+      "nombre": "Doce de Octubre",
+      "comuna": "12",
+      "latitud_referencia": 3.4277855,
+      "longitud_referencia": -76.5032658,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1210",
+      "nombre": "El Rodeo",
+      "comuna": "12",
+      "latitud_referencia": 3.4357059,
+      "longitud_referencia": -76.5047034,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1211",
+      "nombre": "Sindical",
+      "comuna": "12",
+      "latitud_referencia": 3.4305183,
+      "longitud_referencia": -76.5012614,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1212",
+      "nombre": "Bello Horizonte",
+      "comuna": "12",
+      "latitud_referencia": 3.4330889,
+      "longitud_referencia": -76.5037729,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf"
+    },
+    {
+      "codigo": "1301",
+      "nombre": "Ulpiano Lloreda",
+      "comuna": "13",
+      "latitud_referencia": 3.4414856,
+      "longitud_referencia": -76.490403,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1302",
+      "nombre": "El Vergel",
+      "comuna": "13",
+      "latitud_referencia": 3.4153464,
+      "longitud_referencia": -76.5007728,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1303",
+      "nombre": "El Poblado I",
+      "comuna": "13",
+      "latitud_referencia": 3.4185063,
+      "longitud_referencia": -76.4973865,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1304",
+      "nombre": "El Poblado II",
+      "comuna": "13",
+      "latitud_referencia": 3.4204475,
+      "longitud_referencia": -76.4908289,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1305",
+      "nombre": "Los Comuneros II Etapa",
+      "comuna": "13",
+      "latitud_referencia": 3.4249638,
+      "longitud_referencia": -76.4934234,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1306",
+      "nombre": "Ricardo Balcázar",
+      "comuna": "13",
+      "latitud_referencia": 3.4333992,
+      "longitud_referencia": -76.4934038,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1307",
+      "nombre": "Omar Torrijos",
+      "comuna": "13",
+      "latitud_referencia": 3.4251536,
+      "longitud_referencia": -76.4868887,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1308",
+      "nombre": "El Diamante",
+      "comuna": "13",
+      "latitud_referencia": 3.4210385,
+      "longitud_referencia": -76.5025461,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1309",
+      "nombre": "Lleras Restrepo",
+      "comuna": "13",
+      "latitud_referencia": 3.436752,
+      "longitud_referencia": -76.4936014,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1310",
+      "nombre": "Villa del Lago",
+      "comuna": "13",
+      "latitud_referencia": 3.437594,
+      "longitud_referencia": -76.4896264,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1311",
+      "nombre": "Los Robles",
+      "comuna": "13",
+      "latitud_referencia": 3.42181,
+      "longitud_referencia": -76.4954339,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1312",
+      "nombre": "Rodrigo Lara Bonilla",
+      "comuna": "13",
+      "latitud_referencia": 3.4264396,
+      "longitud_referencia": -76.4894212,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1313",
+      "nombre": "Charco Azul",
+      "comuna": "13",
+      "latitud_referencia": 3.4415315,
+      "longitud_referencia": -76.4856872,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1314",
+      "nombre": "Villablanca",
+      "comuna": "13",
+      "latitud_referencia": 3.4295811,
+      "longitud_referencia": -76.4950046,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1315",
+      "nombre": "Calipso",
+      "comuna": "13",
+      "latitud_referencia": 3.424976,
+      "longitud_referencia": -76.4991169,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1316",
+      "nombre": "Yira Castro",
+      "comuna": "13",
+      "latitud_referencia": 3.4266815,
+      "longitud_referencia": -76.4978274,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1317",
+      "nombre": "Lleras Restrepo II",
+      "comuna": "13",
+      "latitud_referencia": 3.4379583,
+      "longitud_referencia": -76.4911886,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1318",
+      "nombre": "Marroquín III",
+      "comuna": "13",
+      "latitud_referencia": 3.433041,
+      "longitud_referencia": -76.4855565,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1319",
+      "nombre": "Los Lagos",
+      "comuna": "13",
+      "latitud_referencia": 3.4294065,
+      "longitud_referencia": -76.4863452,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1320",
+      "nombre": "Sector Laguna del Pondaje",
+      "comuna": "13",
+      "latitud_referencia": 3.4329461,
+      "longitud_referencia": -76.4893712,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1321",
+      "nombre": "El Pondaje",
+      "comuna": "13",
+      "latitud_referencia": 3.43027,
+      "longitud_referencia": -76.4966992,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1322",
+      "nombre": "Asprosocial - Diamante",
+      "comuna": "13",
+      "latitud_referencia": 3.4233838,
+      "longitud_referencia": -76.4996809,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf"
+    },
+    {
+      "codigo": "1401",
+      "nombre": "Alfonso Bonilla Aragón",
+      "comuna": "14",
+      "latitud_referencia": 3.4198627,
+      "longitud_referencia": -76.4829896,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1402",
+      "nombre": "Alirio Mora Beltrán",
+      "comuna": "14",
+      "latitud_referencia": 3.4367888,
+      "longitud_referencia": -76.4794571,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1403",
+      "nombre": "Manuela Beltrán",
+      "comuna": "14",
+      "latitud_referencia": 3.420135,
+      "longitud_referencia": -76.4726049,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1404",
+      "nombre": "Las Orquídeas",
+      "comuna": "14",
+      "latitud_referencia": 3.4140476,
+      "longitud_referencia": -76.4764957,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1405",
+      "nombre": "José Manuel Marroquín Segunda Etapa",
+      "comuna": "14",
+      "latitud_referencia": 3.4323283,
+      "longitud_referencia": -76.4822616,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1406",
+      "nombre": "José Manuel Marroquín Primera Etapa",
+      "comuna": "14",
+      "latitud_referencia": 3.4232203,
+      "longitud_referencia": -76.4794149,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1407",
+      "nombre": "Puerta del Sol",
+      "comuna": "14",
+      "latitud_referencia": 3.4308105,
+      "longitud_referencia": -76.4737121,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1408",
+      "nombre": "Los Naranjos I",
+      "comuna": "14",
+      "latitud_referencia": 3.4335484,
+      "longitud_referencia": -76.4814051,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1409",
+      "nombre": "Promociones Populares B",
+      "comuna": "14",
+      "latitud_referencia": 3.426522,
+      "longitud_referencia": -76.4727787,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1410",
+      "nombre": "Los Naranjos II",
+      "comuna": "14",
+      "latitud_referencia": 3.432516,
+      "longitud_referencia": -76.477055,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf"
+    },
+    {
+      "codigo": "1501",
+      "nombre": "El Retiro",
+      "comuna": "15",
+      "latitud_referencia": 3.4102398,
+      "longitud_referencia": -76.4989386,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1502",
+      "nombre": "Los Comuneros I",
+      "comuna": "15",
+      "latitud_referencia": 3.4114834,
+      "longitud_referencia": -76.4930681,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1503",
+      "nombre": "Laureano Gómez",
+      "comuna": "15",
+      "latitud_referencia": 3.4121345,
+      "longitud_referencia": -76.4960582,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1504",
+      "nombre": "El Vallado",
+      "comuna": "15",
+      "latitud_referencia": 3.4062645,
+      "longitud_referencia": -76.4993227,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1505",
+      "nombre": "Ciudad Córdoba",
+      "comuna": "15",
+      "latitud_referencia": 3.4008665,
+      "longitud_referencia": -76.508756,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1506",
+      "nombre": "Mojica",
+      "comuna": "15",
+      "latitud_referencia": 3.4154036,
+      "longitud_referencia": -76.4878834,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1507",
+      "nombre": "El Morichal",
+      "comuna": "15",
+      "latitud_referencia": 3.3961023,
+      "longitud_referencia": -76.5061122,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf"
+    },
+    {
+      "codigo": "1601",
+      "nombre": "Mariano Ramos",
+      "comuna": "16",
+      "latitud_referencia": 3.4031792,
+      "longitud_referencia": -76.5173165,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1602",
+      "nombre": "República de Israel",
+      "comuna": "16",
+      "latitud_referencia": 3.4072495,
+      "longitud_referencia": -76.5132253,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1603",
+      "nombre": "Unión de Vivienda Popular",
+      "comuna": "16",
+      "latitud_referencia": 3.410398,
+      "longitud_referencia": -76.5099035,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1604",
+      "nombre": "Antonio Nariño",
+      "comuna": "16",
+      "latitud_referencia": 3.4144836,
+      "longitud_referencia": -76.5061825,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1605",
+      "nombre": "Brisas del Limonar",
+      "comuna": "16",
+      "latitud_referencia": 3.4014334,
+      "longitud_referencia": -76.5222123,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1606",
+      "nombre": "Sector Vendimia",
+      "comuna": "16",
+      "latitud_referencia": 3.3905118,
+      "longitud_referencia": -76.5133609,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1608",
+      "nombre": "La Alborada",
+      "comuna": "16",
+      "latitud_referencia": 3.3996448,
+      "longitud_referencia": -76.5216318,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf"
+    },
+    {
+      "codigo": "1701",
+      "nombre": "La Playa",
+      "comuna": "17",
+      "latitud_referencia": 3.3751959,
+      "longitud_referencia": -76.5415249,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1702",
+      "nombre": "Primero de Mayo",
+      "comuna": "17",
+      "latitud_referencia": 3.405367,
+      "longitud_referencia": -76.5337774,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1703",
+      "nombre": "Ciudadela Comfandi",
+      "comuna": "17",
+      "latitud_referencia": 3.3848472,
+      "longitud_referencia": -76.522675,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1705",
+      "nombre": "Sector Ciudad Universitaria",
+      "comuna": "17",
+      "latitud_referencia": 3.374562,
+      "longitud_referencia": -76.5337134,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1706",
+      "nombre": "Caney",
+      "comuna": "17",
+      "latitud_referencia": 3.3842041,
+      "longitud_referencia": -76.5185316,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1707",
+      "nombre": "Lili",
+      "comuna": "17",
+      "latitud_referencia": 3.3711994,
+      "longitud_referencia": -76.5197657,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1708",
+      "nombre": "Santa Anita - La Selva",
+      "comuna": "17",
+      "latitud_referencia": 3.4054038,
+      "longitud_referencia": -76.5384373,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1709",
+      "nombre": "El Ingenio",
+      "comuna": "17",
+      "latitud_referencia": 3.3830235,
+      "longitud_referencia": -76.5307539,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1710",
+      "nombre": "Mayapan - Las Vegas",
+      "comuna": "17",
+      "latitud_referencia": 3.3823161,
+      "longitud_referencia": -76.5419591,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1711",
+      "nombre": "Las Quintas de Don Simón",
+      "comuna": "17",
+      "latitud_referencia": 3.3894546,
+      "longitud_referencia": -76.5362045,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1712",
+      "nombre": "Ciudad Capri",
+      "comuna": "17",
+      "latitud_referencia": 3.3892984,
+      "longitud_referencia": -76.5420574,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1713",
+      "nombre": "La Hacienda",
+      "comuna": "17",
+      "latitud_referencia": 3.3949348,
+      "longitud_referencia": -76.5299768,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1714",
+      "nombre": "Los Portales - Nuevo Rey",
+      "comuna": "17",
+      "latitud_referencia": 3.3938783,
+      "longitud_referencia": -76.5398657,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1715",
+      "nombre": "Cañaverales - Los Samanes",
+      "comuna": "17",
+      "latitud_referencia": 3.4016002,
+      "longitud_referencia": -76.5257603,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1716",
+      "nombre": "El Limonar",
+      "comuna": "17",
+      "latitud_referencia": 3.4020366,
+      "longitud_referencia": -76.5297803,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1717",
+      "nombre": "Bosques del Limonar",
+      "comuna": "17",
+      "latitud_referencia": 3.3995836,
+      "longitud_referencia": -76.5353772,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1718",
+      "nombre": "El Gran Limonar - Cataya",
+      "comuna": "17",
+      "latitud_referencia": 3.398403,
+      "longitud_referencia": -76.5405125,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1719",
+      "nombre": "El Gran Limonar",
+      "comuna": "17",
+      "latitud_referencia": 3.397002,
+      "longitud_referencia": -76.545049,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1720",
+      "nombre": "Unicentro Cali",
+      "comuna": "17",
+      "latitud_referencia": 3.3765373,
+      "longitud_referencia": -76.5394246,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1721",
+      "nombre": "Ciudadela Pasoancho",
+      "comuna": "17",
+      "latitud_referencia": 3.3857108,
+      "longitud_referencia": -76.536641,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1722",
+      "nombre": "Prados del Limonar",
+      "comuna": "17",
+      "latitud_referencia": 3.3898221,
+      "longitud_referencia": -76.5289095,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1723",
+      "nombre": "Urbanización San Joaquín",
+      "comuna": "17",
+      "latitud_referencia": 3.3722835,
+      "longitud_referencia": -76.5275223,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf"
+    },
+    {
+      "codigo": "1801",
+      "nombre": "Buenos Aires",
+      "comuna": "18",
+      "latitud_referencia": 3.3927361,
+      "longitud_referencia": -76.5494384,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1802",
+      "nombre": "Caldas",
+      "comuna": "18",
+      "latitud_referencia": 3.3947804,
+      "longitud_referencia": -76.5496469,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1803",
+      "nombre": "Los Chorros",
+      "comuna": "18",
+      "latitud_referencia": 3.394054,
+      "longitud_referencia": -76.5550404,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1804",
+      "nombre": "Meléndez",
+      "comuna": "18",
+      "latitud_referencia": 3.3778774,
+      "longitud_referencia": -76.545179,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1805",
+      "nombre": "Los Farallones",
+      "comuna": "18",
+      "latitud_referencia": 3.3911598,
+      "longitud_referencia": -76.5528536,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1807",
+      "nombre": "Francisco Eladio Ramírez",
+      "comuna": "18",
+      "latitud_referencia": 3.3882225,
+      "longitud_referencia": -76.5489327,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1808",
+      "nombre": "Prados del Sur",
+      "comuna": "18",
+      "latitud_referencia": 3.3881163,
+      "longitud_referencia": -76.5551447,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1809",
+      "nombre": "Horizontes",
+      "comuna": "18",
+      "latitud_referencia": 3.375747,
+      "longitud_referencia": -76.5487527,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1810",
+      "nombre": "Mario Correa Rengifo",
+      "comuna": "18",
+      "latitud_referencia": 3.387766,
+      "longitud_referencia": -76.5576443,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1811",
+      "nombre": "Lourdes",
+      "comuna": "18",
+      "latitud_referencia": 3.391556,
+      "longitud_referencia": -76.5559089,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1812",
+      "nombre": "Colinas del Sur",
+      "comuna": "18",
+      "latitud_referencia": 3.389483,
+      "longitud_referencia": -76.5522994,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1813",
+      "nombre": "Alférez Real",
+      "comuna": "18",
+      "latitud_referencia": 3.3898218,
+      "longitud_referencia": -76.5478157,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1814",
+      "nombre": "Nápoles",
+      "comuna": "18",
+      "latitud_referencia": 3.3864825,
+      "longitud_referencia": -76.5484328,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1815",
+      "nombre": "El Jordán",
+      "comuna": "18",
+      "latitud_referencia": 3.3744779,
+      "longitud_referencia": -76.5514067,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1816",
+      "nombre": "Sector Cuarteles de Nápoles",
+      "comuna": "18",
+      "latitud_referencia": 3.3817881,
+      "longitud_referencia": -76.5510381,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1817",
+      "nombre": "Sector Alto de los Chorros",
+      "comuna": "18",
+      "latitud_referencia": 3.3909272,
+      "longitud_referencia": -76.5602197,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1818",
+      "nombre": "Sector Polvorines",
+      "comuna": "18",
+      "latitud_referencia": 3.3715837,
+      "longitud_referencia": -76.559077,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1819",
+      "nombre": "Altos de Santa Elena",
+      "comuna": "18",
+      "latitud_referencia": 3.3705299,
+      "longitud_referencia": -76.5557546,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1820",
+      "nombre": "Altos del Madrigal",
+      "comuna": "18",
+      "latitud_referencia": 3.3695393,
+      "longitud_referencia": -76.552158,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1821",
+      "nombre": "Bajo Meléndez",
+      "comuna": "18",
+      "latitud_referencia": 3.3731169,
+      "longitud_referencia": -76.5463845,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1822",
+      "nombre": "Sector Alto Jordán",
+      "comuna": "18",
+      "latitud_referencia": 3.3765768,
+      "longitud_referencia": -76.5567373,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1823",
+      "nombre": "Sector Alto Nápoles",
+      "comuna": "18",
+      "latitud_referencia": 3.3849981,
+      "longitud_referencia": -76.5569373,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf"
+    },
+    {
+      "codigo": "1901",
+      "nombre": "El Refugio",
+      "comuna": "19",
+      "latitud_referencia": 3.3977089,
+      "longitud_referencia": -76.551372,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1902",
+      "nombre": "La Cascada",
+      "comuna": "19",
+      "latitud_referencia": 3.4006566,
+      "longitud_referencia": -76.5544974,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1903",
+      "nombre": "El Lido",
+      "comuna": "19",
+      "latitud_referencia": 3.418729,
+      "longitud_referencia": -76.5511286,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1904",
+      "nombre": "Urbanización Tequendama",
+      "comuna": "19",
+      "latitud_referencia": 3.4205191,
+      "longitud_referencia": -76.5456194,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1905",
+      "nombre": "Eucarístico",
+      "comuna": "19",
+      "latitud_referencia": 3.4241528,
+      "longitud_referencia": -76.5404623,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1906",
+      "nombre": "San Fernando Nuevo",
+      "comuna": "19",
+      "latitud_referencia": 3.4275508,
+      "longitud_referencia": -76.5433799,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1907",
+      "nombre": "Urbanización Nueva Granada",
+      "comuna": "19",
+      "latitud_referencia": 3.4238313,
+      "longitud_referencia": -76.5499957,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1908",
+      "nombre": "Santa Isabel",
+      "comuna": "19",
+      "latitud_referencia": 3.4287245,
+      "longitud_referencia": -76.5490121,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1909",
+      "nombre": "Bellavista",
+      "comuna": "19",
+      "latitud_referencia": 3.4449854,
+      "longitud_referencia": -76.5528752,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1910",
+      "nombre": "San Fernando Viejo",
+      "comuna": "19",
+      "latitud_referencia": 3.4352042,
+      "longitud_referencia": -76.5448098,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1911",
+      "nombre": "Miraflores",
+      "comuna": "19",
+      "latitud_referencia": 3.4389827,
+      "longitud_referencia": -76.5410739,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1912",
+      "nombre": "3 de Julio",
+      "comuna": "19",
+      "latitud_referencia": 3.4329371,
+      "longitud_referencia": -76.5401855,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1913",
+      "nombre": "El Cedro",
+      "comuna": "19",
+      "latitud_referencia": 3.4319939,
+      "longitud_referencia": -76.5376147,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1914",
+      "nombre": "Champagnat",
+      "comuna": "19",
+      "latitud_referencia": 3.4292123,
+      "longitud_referencia": -76.5351078,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1915",
+      "nombre": "Urbanización Colseguros",
+      "comuna": "19",
+      "latitud_referencia": 3.4294856,
+      "longitud_referencia": -76.5320437,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1916",
+      "nombre": "Los Cámbulos",
+      "comuna": "19",
+      "latitud_referencia": 3.4189112,
+      "longitud_referencia": -76.539566,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1917",
+      "nombre": "El Mortiñal",
+      "comuna": "19",
+      "latitud_referencia": 3.4419894,
+      "longitud_referencia": -76.5502454,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1918",
+      "nombre": "Urbanización Militar",
+      "comuna": "19",
+      "latitud_referencia": 3.4133641,
+      "longitud_referencia": -76.5397576,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1919",
+      "nombre": "Cuarto de Legua - Guadalupe",
+      "comuna": "19",
+      "latitud_referencia": 3.4086584,
+      "longitud_referencia": -76.5524636,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1921",
+      "nombre": "Nueva Tequendama",
+      "comuna": "19",
+      "latitud_referencia": 3.4132087,
+      "longitud_referencia": -76.5440936,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1922",
+      "nombre": "Camino Real - Joaquín Borrero Sinisterra",
+      "comuna": "19",
+      "latitud_referencia": 3.407699,
+      "longitud_referencia": -76.5455065,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1923",
+      "nombre": "Camino Real - Los Fundadores",
+      "comuna": "19",
+      "latitud_referencia": 3.4079885,
+      "longitud_referencia": -76.5417279,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1924",
+      "nombre": "Altos de Santa Isabel",
+      "comuna": "19",
+      "latitud_referencia": 3.4320582,
+      "longitud_referencia": -76.5533246,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1925",
+      "nombre": "Santa Bárbara",
+      "comuna": "19",
+      "latitud_referencia": 3.4418501,
+      "longitud_referencia": -76.5473172,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1926",
+      "nombre": "Tejares - Cristales",
+      "comuna": "19",
+      "latitud_referencia": 3.4370479,
+      "longitud_referencia": -76.5497302,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1927",
+      "nombre": "Unidad Residencial Santiago de Cali",
+      "comuna": "19",
+      "latitud_referencia": 3.4155293,
+      "longitud_referencia": -76.547611,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1928",
+      "nombre": "Unidad Residencial El Coliseo",
+      "comuna": "19",
+      "latitud_referencia": 3.4134981,
+      "longitud_referencia": -76.5550081,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1929",
+      "nombre": "Cañaveralejo - Seguros Patria",
+      "comuna": "19",
+      "latitud_referencia": 3.4029023,
+      "longitud_referencia": -76.5445141,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1930",
+      "nombre": "Cañaveral",
+      "comuna": "19",
+      "latitud_referencia": 3.4090764,
+      "longitud_referencia": -76.5644313,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1931",
+      "nombre": "Pampa Linda",
+      "comuna": "19",
+      "latitud_referencia": 3.4041564,
+      "longitud_referencia": -76.5514473,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1932",
+      "nombre": "Cañaveralejo Guadalupe",
+      "comuna": "19",
+      "latitud_referencia": 3.4083368,
+      "longitud_referencia": -76.5586261,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1933",
+      "nombre": "Sector Unidad Deportiva Jaime Aparicio",
+      "comuna": "19",
+      "latitud_referencia": 3.423767,
+      "longitud_referencia": -76.5369396,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "1934",
+      "nombre": "Sector Unidad Deportiva Alberto Galindo Plaza de Toros",
+      "comuna": "19",
+      "latitud_referencia": 3.4121475,
+      "longitud_referencia": -76.5516587,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf"
+    },
+    {
+      "codigo": "2001",
+      "nombre": "El Cortijo",
+      "comuna": "20",
+      "latitud_referencia": 3.4165422,
+      "longitud_referencia": -76.5589483,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2002",
+      "nombre": "Belisario Caicedo",
+      "comuna": "20",
+      "latitud_referencia": 3.4145152,
+      "longitud_referencia": -76.5564987,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2003",
+      "nombre": "Siloé",
+      "comuna": "20",
+      "latitud_referencia": 3.4220735,
+      "longitud_referencia": -76.5561635,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2004",
+      "nombre": "Lleras Camargo",
+      "comuna": "20",
+      "latitud_referencia": 3.4211071,
+      "longitud_referencia": -76.5617103,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2005",
+      "nombre": "Belén",
+      "comuna": "20",
+      "latitud_referencia": 3.4271842,
+      "longitud_referencia": -76.5533844,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2006",
+      "nombre": "Brisas de Mayo",
+      "comuna": "20",
+      "latitud_referencia": 3.4177491,
+      "longitud_referencia": -76.5640599,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2007",
+      "nombre": "Tierra Blanca",
+      "comuna": "20",
+      "latitud_referencia": 3.4196223,
+      "longitud_referencia": -76.558954,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2008",
+      "nombre": "Pueblo Joven",
+      "comuna": "20",
+      "latitud_referencia": 3.4161794,
+      "longitud_referencia": -76.5652513,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2009",
+      "nombre": "Cañaveralejo",
+      "comuna": "20",
+      "latitud_referencia": 3.4129027,
+      "longitud_referencia": -76.5635494,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2010",
+      "nombre": "Venezuela",
+      "comuna": "20",
+      "latitud_referencia": 3.4143177,
+      "longitud_referencia": -76.5597693,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2011",
+      "nombre": "Sector La Sultana",
+      "comuna": "20",
+      "latitud_referencia": 3.4218968,
+      "longitud_referencia": -76.5647447,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf"
+    },
+    {
+      "codigo": "2101",
+      "nombre": "Pizamos I",
+      "comuna": "21",
+      "latitud_referencia": 3.4022636,
+      "longitud_referencia": -76.4751463,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2102",
+      "nombre": "Pizamos II",
+      "comuna": "21",
+      "latitud_referencia": 3.404018,
+      "longitud_referencia": -76.4727073,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2103",
+      "nombre": "Calimio Desepaz",
+      "comuna": "21",
+      "latitud_referencia": 3.4142945,
+      "longitud_referencia": -76.4693425,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2104",
+      "nombre": "El Remanso",
+      "comuna": "21",
+      "latitud_referencia": 3.4182266,
+      "longitud_referencia": -76.4653308,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2105",
+      "nombre": "Los Líderes",
+      "comuna": "21",
+      "latitud_referencia": 3.4195544,
+      "longitud_referencia": -76.4665149,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2106",
+      "nombre": "Desepaz Invicali",
+      "comuna": "21",
+      "latitud_referencia": 3.4252096,
+      "longitud_referencia": -76.463573,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2107",
+      "nombre": "Compartir",
+      "comuna": "21",
+      "latitud_referencia": 3.4313431,
+      "longitud_referencia": -76.4663229,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2108",
+      "nombre": "Ciudad Talanga",
+      "comuna": "21",
+      "latitud_referencia": 3.4340078,
+      "longitud_referencia": -76.467699,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2109",
+      "nombre": "Sector Villamercedes I - Villa Luz - Las Garzas",
+      "comuna": "21",
+      "latitud_referencia": 3.4098074,
+      "longitud_referencia": -76.4781591,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2110",
+      "nombre": "Pizamos III - Las Dalias",
+      "comuna": "21",
+      "latitud_referencia": 3.4077627,
+      "longitud_referencia": -76.4758481,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2111",
+      "nombre": "Nuevo Amanecer",
+      "comuna": "21",
+      "latitud_referencia": 3.407091,
+      "longitud_referencia": -76.4702043,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2112",
+      "nombre": "Ciudadela del Rio",
+      "comuna": "21",
+      "latitud_referencia": 3.4261149,
+      "longitud_referencia": -76.466588,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2113",
+      "nombre": "Valle Grande",
+      "comuna": "21",
+      "latitud_referencia": 3.4374169,
+      "longitud_referencia": -76.4715415,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2114",
+      "nombre": "Sector Planta de Tratamiento",
+      "comuna": "21",
+      "latitud_referencia": 3.4441521,
+      "longitud_referencia": -76.4796563,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2115",
+      "nombre": "Ciudadela Río Cauca",
+      "comuna": "21",
+      "latitud_referencia": 3.4407479,
+      "longitud_referencia": -76.4786025,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf"
+    },
+    {
+      "codigo": "2201",
+      "nombre": "Urbanización Ciudad Jardín",
+      "comuna": "22",
+      "latitud_referencia": 3.3628476,
+      "longitud_referencia": -76.5370995,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf"
+    },
+    {
+      "codigo": "2202",
+      "nombre": "Parcelaciones Pance",
+      "comuna": "22",
+      "latitud_referencia": 3.3456382,
+      "longitud_referencia": -76.5368938,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf"
+    },
+    {
+      "codigo": "2203",
+      "nombre": "Urbanización Río Lili",
+      "comuna": "22",
+      "latitud_referencia": 3.364466,
+      "longitud_referencia": -76.5280996,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf"
+    },
+    {
+      "codigo": "2204",
+      "nombre": "Ciudad Campestre",
+      "comuna": "22",
+      "latitud_referencia": 3.3696005,
+      "longitud_referencia": -76.53965,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf"
+    },
+    {
+      "codigo": "2205",
+      "nombre": "Club Campestre",
+      "comuna": "22",
+      "latitud_referencia": 3.3692873,
+      "longitud_referencia": -76.544175,
+      "fuente": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf"
+    }
+  ]
+}

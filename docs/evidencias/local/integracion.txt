@@ -1,0 +1,67 @@
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+
+Warning: Module "openssl" is already loaded in Unknown on line 0
+Migración entrega 2 completada. Los registros anteriores conservan su sede sin especificar.
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+Migración entrega 2 completada. Los registros anteriores conservan su sede sin especificar.
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+PASS rechaza sede inexistente
+PASS rechaza coordenadas incompletas
+PASS 22 comunas activas
+PASS 15 corregimientos activos
+PASS 340 barrios y sectores oficiales
+PASS rechaza barrio de otra comuna
+PASS rechaza barrio urbano sin catalogo
+PASS normaliza el nombre desde el catalogo
+PASS acepta sector rural y deriva corregimiento
+PASS rechaza coordenadas de sede fuera de rango
+Catálogo territorial aplicado: 340 barrios/sectores, 22 comunas y 15 corregimientos.
+PASS migracion conserva sede configurada
+PASS configuracion de sede auditada
+PASS registro atómico 1
+PASS registro atómico 2
+PASS registro atómico 3
+PASS registro atómico 4
+PASS registro atómico 5
+PASS registro atómico 6
+PASS registro atómico 7
+PASS registro atómico 8
+PASS registro atómico 9
+PASS registro atómico 10
+PASS registro atómico 11
+PASS registro atómico 12
+PASS registro atómico 13
+PASS registro atómico 14
+PASS registro atómico 15
+PASS registro atómico 16
+PASS registro atómico 17
+PASS registro atómico 18
+PASS registro atómico 19
+PASS registro atómico 20
+PASS consecutivos únicos
+PASS registro concurrente: PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+
+PASS registro concurrente: PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+
+PASS registro concurrente: PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+
+PASS consecutivos concurrentes diferentes
+PASS ocho sedes disponibles
+PASS solicitudes elegibles para ruta
+PASS rechaza carga menor a 20
+PASS rechaza repetidos
+PASS rechaza programación para hoy
+PASS rechaza usuario que no es encuestador
+PASS ruta con 20 asignaciones
+PASS estado asignado consistente
+PASS encuestador no puede consultar ruta ajena
+PASS impide doble asignación
+PASS rechaza entrega desde otra sede
+PASS rechaza entrega anticipada
+PASS rechaza entrega fuera de la manana
+PASS entrega registrada en la manana
+PASS impide entrega duplicada
+PASS impide cambiar ubicación de solicitud asignada
+PASS dashboard cuenta datos reales
+PASS PDF paginado
+Integración completada; datos de prueba eliminados al finalizar.

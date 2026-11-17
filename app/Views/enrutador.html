@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrutador - Bitácora Diaria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+    <link rel="stylesheet" href="assets/css/operations.css">
+</head>
+<body data-role="5" class="bg-slate-50 text-slate-900 min-h-screen">
+
+    <!-- Navbar -->
+    <nav aria-label="Navegación principal" class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-center justify-between min-h-16 py-3 gap-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">E</div>
+                    <span class="font-bold text-lg text-slate-800">Encuestas Cali</span>
+                </div>
+                <a href="index.php?route=enrutador" aria-current="page" class="text-sm font-medium text-indigo-700">Enrutador / Asignación</a>
+                <div class="flex items-center gap-4">
+                    <div class="hidden md:flex items-center gap-3 text-sm text-slate-600">
+                        <span class="font-medium" id="userName"></span>
+                        <span class="bg-indigo-100 text-indigo-700 text-[10px] px-2 py-0.5 rounded-full uppercase font-bold" id="userRole"></span>
+                    </div>
+                    <button type="button" id="btnLogout" class="text-sm text-red-600 hover:text-red-800 font-medium flex items-center gap-2">
+                        <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main hidden class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="flex flex-col lg:flex-row justify-between items-start mb-6 gap-4">
+            <div>
+                <h1 class="text-2xl font-bold text-slate-800">Bitácora del Enrutador</h1>
+                <p class="text-slate-500 text-sm">Solicitudes generadas hoy en los puntos de atención de Cali</p>
+            </div>
+            <div class="flex gap-2">
+                <button id="btnRefresh" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center gap-2 shadow-sm">
+                    <i class="fas fa-sync-alt"></i> Actualizar
+                </button>
+                <a href="index.php?route=enrutador" aria-current="page" class="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium transition">
+                    Enrutador / Asignación
+                </a>
+            </div>
+        </div>
+
+        <!-- Filtros -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Comuna</label>
+                    <select id="filtroComuna" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none bg-white">
+                        <option value="">Todas las comunas</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Estado</label>
+                    <select id="filtroEstado" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none bg-white">
+                        <option value="">Todos los estados</option>
+                    </select>
+                </div>
+                <div class="flex items-end">
+                    <button id="btnLimpiarFiltros" class="px-4 py-2.5 text-slate-600 hover:text-slate-900 font-medium transition">
+                        Limpiar filtros
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contador -->
+        <div class="flex justify-between items-center mb-4">
+            <span id="totalBadge" class="text-sm font-medium text-slate-600">Cargando solicitudes...</span>
+            <span class="text-xs text-slate-400">Fecha: <span id="fechaHoy"></span></span>
+        </div>
+
+        <!-- Tabla -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-50 border-b border-slate-200">
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">#</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Número</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Ciudadano</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider hidden md:table-cell">Teléfono</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Barrio / Comuna</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Estado</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Coordenadas</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Fecha</th>
+                            <th class="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody" class="divide-y divide-slate-100">
+                        <!-- Filas inyectadas por JS -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="emptyState" class="hidden text-center py-12">
+                <div class="flex flex-col items-center gap-3">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center text-slate-400">
+                        <i class="fas fa-clipboard-list text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-slate-800">No hay solicitudes hoy</h3>
+                    <p class="text-slate-500 text-sm">Las solicitudes capturadas en ventanilla aparecerán aquí automáticamente.</p>
+                </div>
+            </div>
+        </div>
+        <section id="operations" aria-label="Operaciones de encuestas"></section>
+    </main>
+
+    <noscript><p class="p-4 text-amber-800">Activa JavaScript para cargar tu panel y cerrar sesión.</p></noscript>
+    <script type="module">
+        import { mountRolePage } from './assets/js/role-page.js';
+        import { initEnrutador } from './assets/js/enrutador.js';
+
+        mountRolePage(5, (user) => initEnrutador({ user }));
+    </script>
+</body>
+</html>

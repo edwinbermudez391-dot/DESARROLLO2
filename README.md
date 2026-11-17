@@ -5,7 +5,9 @@ Aplicación PHP/MySQL para radicar solicitudes, georreferenciarlas y organizar h
 ## Ejecución con XAMPP
 
 ```powershell
+python scripts/configure_docker.py
 php scripts/migrate_entrega2.php
+php scripts/create_demo_users.php
 ```
 
 Abrir [el login local](http://localhost/ProyectoDesarrollo2/public/index.php?route=login).
@@ -15,6 +17,7 @@ En una instalación nueva, importar primero `DATABASE_MODELO_ENTREGA_1.sql` y
 ## Ejecución con Docker
 
 ```sh
+python scripts/configure_docker.py
 docker compose up --build -d --wait
 ```
 
@@ -22,7 +25,8 @@ Abrir [localhost:18080](http://localhost:18080/index.php?route=login).
 `docker compose down` detiene el entorno y conserva el volumen de datos.
 
 Cuentas de demostración: `admin`, `ventanilla`, `encuestador`, `calidad` y `enrutador`.
-Contraseña de los seeders: `password123`. Las cuentas existentes conservan sus claves.
+Las cuentas se crean desde `DEMO_PASSWORD`, guardada localmente en `.env`; no se publican
+contraseñas ni hashes. Las cuentas existentes conservan sus claves.
 
 ## Funciones
 
@@ -61,4 +65,3 @@ Las referencias de barrio no son domicilios. Las sedes del caso académico deben
 configurarse con la dirección real de la entidad antes de utilizarlas en operación.
 Los registros históricos no se reclasifican automáticamente. El sistema no incluye
 optimización automática ni diligenciamiento/revisión digital de la encuesta completa.
-

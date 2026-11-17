@@ -1,0 +1,138 @@
+{
+  "consultado": "2026-11-16",
+  "mapas": [
+    {
+      "comuna": 1,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_01.pdf",
+      "sha256": "5b12257b9e49797dae3f522c00dd3e267db810c9a9aec68ec1722b5526887302",
+      "bytes": 3882821
+    },
+    {
+      "comuna": 2,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_02.pdf",
+      "sha256": "6ca8ce17a138c2ad0e63a8a7ba56d12669b15b1de4630094b134a56da936fc5a",
+      "bytes": 6102920
+    },
+    {
+      "comuna": 3,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_03.pdf",
+      "sha256": "4f90cb64de224b5751db739e6b5609342075a8d6e5efa26e6b399875e23c9b96",
+      "bytes": 4256709
+    },
+    {
+      "comuna": 4,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_04.pdf",
+      "sha256": "a3c8c835fa2b311ad37a4ce56a71ffba8920ca80106e6e4a6714914cec0b31e2",
+      "bytes": 3951980
+    },
+    {
+      "comuna": 5,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_05.pdf",
+      "sha256": "3a6b3cc302b94591dde5c0fa90ee5dbd810b4abb3dbafccd16a0c4e2361d33cc",
+      "bytes": 3632343
+    },
+    {
+      "comuna": 6,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_06.pdf",
+      "sha256": "c309ad0c686a37a70b8a2c35d90843f5cf7c798c00a8c7fab052a74f15ba9d24",
+      "bytes": 3847911
+    },
+    {
+      "comuna": 7,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_07.pdf",
+      "sha256": "11b48bdf64798e88027796ee09a63a49e60b10b878bf54093f69990f8216502a",
+      "bytes": 4320141
+    },
+    {
+      "comuna": 8,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_08.pdf",
+      "sha256": "c08731931327db29c3ea501d2f3eab3c6895dfcc7f4bd0a3782d25df2abcbf5f",
+      "bytes": 4313971
+    },
+    {
+      "comuna": 9,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_09.pdf",
+      "sha256": "9bc3fbc2af5cc7d7675869003642a57cc02362aa371bee8914179f3599248b73",
+      "bytes": 3718659
+    },
+    {
+      "comuna": 10,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_10.pdf",
+      "sha256": "9c8fb1e12639f7cb50687c1c99517d720edc5cb3147b212df09be49647910d8b",
+      "bytes": 4064948
+    },
+    {
+      "comuna": 11,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_11.pdf",
+      "sha256": "ff27c502b5301601988bdf95db3e671a5192bcff1c2acfca01f61b5e9275e1c8",
+      "bytes": 4257887
+    },
+    {
+      "comuna": 12,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_12.pdf",
+      "sha256": "0a7f7dcb378dec24209dbe237aeda55d9ecadc2991026b6e8b8aa956a011a7f4",
+      "bytes": 3657164
+    },
+    {
+      "comuna": 13,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_13.pdf",
+      "sha256": "dd269fa84440af1f8f134c1cb7cfcb2225f4993030c3c1e177598a15722b9def",
+      "bytes": 4375197
+    },
+    {
+      "comuna": 14,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_14.pdf",
+      "sha256": "03c0da61cdfa065c2bbc29810a3d2a4ad94882e0e13c47a5e7ea7ad544ad2597",
+      "bytes": 4194874
+    },
+    {
+      "comuna": 15,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_15.pdf",
+      "sha256": "3455f2b180ced73e9a841419918605813d72e266c6d8a171e83c7a122fc44aa1",
+      "bytes": 3737785
+    },
+    {
+      "comuna": 16,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_16.pdf",
+      "sha256": "26c00c0250bd8ef420fbf7b3a8a433af572f97d3ff919f58230d6f4a02ee3d7a",
+      "bytes": 3879529
+    },
+    {
+      "comuna": 17,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_17.pdf",
+      "sha256": "3e71ec14308e274e609956dcee3430e23fedc57f4ce2d2ebb6ab4c209361e395",
+      "bytes": 4738009
+    },
+    {
+      "comuna": 18,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_18.pdf",
+      "sha256": "d38084f80a0f6c0858b3bd3751c468d4926148f3e3ebc1934690bc3a97cfe848",
+      "bytes": 4161873
+    },
+    {
+      "comuna": 19,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_19.pdf",
+      "sha256": "dbde773c593477e97743c66bcbf55c7cd4d0b93d0d067df0924ddfd40fcfbb46",
+      "bytes": 6482819
+    },
+    {
+      "comuna": 20,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_20.pdf",
+      "sha256": "55311d3a90ab6f743b9bbb69dd1c725e5791bda0c1cdb73509c2ea8a5cbc7377",
+      "bytes": 3865463
+    },
+    {
+      "comuna": 21,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_21.pdf",
+      "sha256": "9ed7f4322da23cb1047dfff1183f325914700d911b1427f3fac7d8c8cc754fb4",
+      "bytes": 4324565
+    },
+    {
+      "comuna": 22,
+      "url": "https://idesc.cali.gov.co/download/mapas_comunas/comuna_22.pdf",
+      "sha256": "1780cee585d74304ac6f9c5d820ca0528ee3ece28dc1ebe2d3903782f80fe2f1",
+      "bytes": 3588610
+    }
+  ],
+  "sectores_api": "https://indicadores.cali.gov.co/api/get_capas_geograficas/"
+}

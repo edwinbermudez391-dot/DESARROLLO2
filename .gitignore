@@ -1,0 +1,13 @@
+/tmp/
+/output/
+/tests/.sessions/
+*.log
+.env
+
+/docs/evidencias/*.jpg
+/docs/evidencias/*.png
+
+/ACTUALIZAR_PASSWORD_VENTANILLA.sql
+/DOCUMENTACION_METODOLOGICA_ENTREGA_1.md
+/docs/HISTORICO_INTEGRACION_ENTREGA_1.md
+/app/Views/test_login.html
